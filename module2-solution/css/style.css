@@ -1,11 +1,130 @@
+.container {
+    width: 100%;
+    /* position: relative; */
+}
+
+p {
+    text-align: justify;
+    margin-top: 15%;
+}
+
+.section1 {
+    background-color: rgb(150, 9, 9);
+    box-sizing: border-box;
+    position: relative;
+    margin: 2% 1% 2% 1%;
+    padding: 2%;
+}
+.section1 h3 {
+    background-color: rgb(216, 73, 73);
+    padding: 2%;
+}
+
+.section2 {
+    background-color: rgb(14, 151, 14);
+    box-sizing: border-box;
+    position: relative;
+    margin: 2% 1% 2% 1%;
+    padding: 2%;
+}
+.section2 h3 {
+    background-color: rgb(26, 192, 26);
+    padding: 2%;
+}
+
+.section3 {
+    background-color: rgb(167, 24, 167);
+    box-sizing: border-box;
+    position: relative;
+    margin: 2% 1% 2% 1%;
+    padding: 2%;
+}
+.section3 h3 {
+    background-color: rgb(219, 36, 219);
+    padding: 2%;
+}
+
+h1 {
+    text-align: center;
+    padding: 20px;
+}
+
+h3 {
+    position: absolute;
+    top:0;
+    right:20px;
+}
+
 /* For desktop */
-@media screen and (max-width: 2560px) {
+@media (min-width: 992px) {
+    .section1 {
+        color: white;
+        float: left;
+        width: 31%;
+        border: 1px solid black;
+    }
+
+    .section2 {
+        color: white;
+        float: left;
+        width: 31%;
+        border: 1px solid black;
+    }
+
+    .section3 {
+        color: white;
+        float: left;
+        width: 31%;
+        border: 1px solid black;
+    }
 }
 
 /* For tablet */
-@media screen and (max-width: 2560px) {
+@media (min-width: 768px) and (max-width: 991px) {
+    .section1 {
+        color: white;
+        float: left;
+        width: 48%;
+        border: 1px solid black;
+    }
+
+    .section2 {
+        color: white;
+        float: left;
+        width: 48%;
+        border: 1px solid black;
+    }
+
+    .section3 {
+        color: white;
+        clear: left;
+        width: 98%;
+        border: 1px solid black;
+    }
 }
 
 /* For mobile */
-@media screen and (max-width: 2560px) {
+@media (max-width: 767px) {
+    .section1 {
+        color: white;
+        float: left;
+        width: 96%;
+        border: 1px solid black;
+    }
+
+    .section2 {
+        color: white;
+        float: left;
+        clear:left;
+        width: 96%;
+        border: 1px solid black;
+    }
+
+    .section3 {
+        color: white;
+        float: left;
+        clear:left;
+        width: 96%;
+        border: 1px solid black;
+    }
 }
