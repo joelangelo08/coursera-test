@@ -11,11 +11,9 @@ body {
     border: 0;
 }
 
-
-
 p {
     text-align: justify;
-    margin-top: 15%;
+    margin-top: 5%;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
@@ -25,11 +23,7 @@ p {
     position: relative;
     margin: 2% 1% 2% 1%;
     padding: 2%;
-}
-.section1 h3 {
-    background-color: rgb(216, 73, 73);
-    padding: 2%;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    height: auto;
 }
 
 .section2 {
@@ -38,11 +32,7 @@ p {
     position: relative;
     margin: 2% 1% 2% 1%;
     padding: 2%;
-}
-.section2 h3 {
-    background-color: rgb(26, 192, 26);
-    padding: 2%;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    height: auto;
 }
 
 .section3 {
@@ -51,11 +41,7 @@ p {
     position: relative;
     margin: 2% 1% 2% 1%;
     padding: 2%;
-}
-.section3 h3 {
-    background-color: rgb(219, 36, 219);
-    padding: 2%;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    height: auto;
 }
 
 h1 {
@@ -65,9 +51,8 @@ h1 {
 }
 
 h3 {
-    position: absolute;
-    top:0;
-    right:20px;
+    /* position: absolute; */
+    text-align: center;
 }
 
 #nav-list li {
@@ -78,15 +63,38 @@ h3 {
     font-family: 'Oxygen', sans-serif;
 }
 #nav-list li {
-    background-color: rgba(255, 255, 255, 0.336);
-    width: 100%;
+    background-color: #f6b419cc;
+    /* width: 100%; */
     border: solid black 1px;
 }
 
 #nav-list li:hover {
-    background-color: #f6b319;
+    background-color: #e9d4a4;
 }
+
+.backtotop {
+    border-radius: 9px;
+    border: none;
+    background-color: white;
+    position: absolute;
+    bottom: 5%;
+    right: 5%;
     
+}
+.backtotop a {
+    text-decoration: none;
+    color:black;
+}
+.backtotop:hover, a:hover {
+    background-color: rgb(44, 44, 44);
+    color:white;
+}
+
+.navbutton {
+    width: 100%;
+    text-decoration: none;
+    color:black;
+}
 
 /* For desktop */
 @media (min-width: 992px) {
